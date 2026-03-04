@@ -14,6 +14,13 @@ body {
 	font-size: 18px;
 }
 
+.heading {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
 .heading:after {
 	content: "";
 	display: block;
@@ -21,12 +28,12 @@ body {
 }
 
 h1.title {
-	font-size: 64px;
+	font-size: 56px;
 	font-weight: bold;
 	color: #799c38;
 	margin: 0;
+	padding-top: 10px;
 	display: block;
-	float: left;
 }
 
 @-webkit-keyframes move-up {
@@ -66,8 +73,7 @@ h1.title {
 }
 
 .scores-container {
-	float: right;
-	text-align: right;
+	align-self: center;
 }
 
 .score-container,
@@ -654,7 +660,7 @@ hr {
 	}
 
 	h1.title {
-		font-size: 36px;
+		font-size: 40px;
 		margin-top: 5px;
 	}
 
@@ -662,6 +668,10 @@ hr {
 		width: 280px;
 		margin: 0 auto;
 		padding: 50px;
+	}
+
+	.scores-container {
+		align-self: flex-start;
 	}
 
 	.score-container,
@@ -674,6 +684,8 @@ hr {
 
 	.heading {
 		margin-bottom: 10px;
+		flex-direction: column;
+		align-items: flex-start;
 	}
 
 	#bg-img {
