@@ -1,6 +1,21 @@
 # GetKerMIT!
-A small clone of [2048](http://gabrielecirulli.github.io/2048/) by Gabrielle Cirulli and [1024](https://play.google.com/store/apps/details?id=com.veewo.a1024), based on [Saming's 2048](http://saming.fr/p/2048/) (also a clone).
+Watch Kermit undergo the stages of grief!
 
-Forked from [GetMIT](https://mitchgu.github.io/GetMIT/) by [Mitchell Gu](https://github.com/mitchgu), inspired by [Get Caltech!](https://naveenarun.github.io/GetCaltech/) by [Naveen Arun](https://github.com/naveenarun).
+**PLAY**: [http://recursivevisions.github.io/GetKermit/](http://recursivevisions.github.io/GetKermit/)
 
-Made just for fun; no hard feelings to Kermit! [Play it here!](http://recursivevisions.github.io/GetKermit/)
+This was made purely for my enjoyment. No Kermits were harmed in the making of this game.
+
+_Get a Kermit higher than the almighty KerMIT (pink outline) for a secret._
+
+## Options
+- `Enable colored tile outlines`: To help you keep track of the order, and for accessibility, tiles are outlined in the colors of the rainbow.
+- `Freeze animated gifs`: Freeze animated gifs. Tiles 128 through 2048 are animated.
+
+## Credits
+GetKerMIT is a clone of [Gabrielle Cirulli](https://github.com/gabrielecirulli)'s [2048](http://gabrielecirulli.github.io/2048/), based on [Saming's 2048](http://saming.fr/p/2048/) (also a clone). Forked from [GetMIT](https://mitchgu.github.io/GetMIT/) by [Mitchell Gu](https://github.com/mitchgu), inspired by [Get Caltech!](https://naveenarun.github.io/GetCaltech/) by [Naveen Arun](https://github.com/naveenarun). Based on [Gabrielle Cirulli](https://github.com/gabrielecirulli)'s [2048](http://gabrielecirulli.github.io/2048/) and [1024 by Veewo Studio](https://itunes.apple.com/us/app/1024!/id823499224). Conceptually similar to [Threes by Asher Vollmer](http://asherv.com/threes/).
+
+### Image Sources
+The background is [Kermit the Frog's Spotify profile picture](https://open.spotify.com/artist/1PGjAoXiKP1Hcx788WVFx9). I don't know the sources of the other images.
+
+## License
+This repository is licensed under the [MIT License](LICENSE).
