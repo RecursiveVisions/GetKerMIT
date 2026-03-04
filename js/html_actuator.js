@@ -97,6 +97,13 @@ HTMLActuator.prototype.addTile = function (tile) {
     tile.mergedFrom.forEach(function (merged) {
       self.addTile(merged);
     });
+
+    // show secret (overlay)
+    if (tile.value > 2048) {
+      document.body.classList.add("bg-overlay");
+      let roseOverlay = document.getElementById("rose-overlay");
+      roseOverlay.style.display = "block";
+    }
   } else {
     classes.push("tile-new");
     this.applyClasses(wrapper, classes);
