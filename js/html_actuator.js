@@ -62,7 +62,7 @@ HTMLActuator.prototype.addTile = function (tile) {
   this.applyClasses(wrapper, classes);
 
   inner.classList.add("tile-inner");
-  //inner.textContent = tile.value;
+  inner.textContent = tile.value;
 
   // Add/remove tile outlines
   let outlinesEnabled = document.getElementById("outlines-check").checked;
@@ -71,6 +71,17 @@ HTMLActuator.prototype.addTile = function (tile) {
 	} else {
 		inner.classList.add("tile-no-outline");
 	}
+
+  // Freeze/unfreeze animated gifs
+  let freezeEnabled = document.getElementById("freeze-check").checked;
+  if (tile.value > 64) {
+    let stillClass = `tile-${tile.value}-still`;
+
+    // We don't need to remove because classList is overwritten every move
+    if (freezeEnabled) {
+      classes.push(stillClass);
+    }
+  }
 
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
