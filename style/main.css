@@ -23,7 +23,7 @@ body {
 h1.title {
 	font-size: 64px;
 	font-weight: bold;
-	color: #a31f34;
+	color: #799c38;
 	margin: 0;
 	display: block;
 	float: left;
@@ -130,7 +130,7 @@ p {
 }
 
 a {
-	color: #a31f34;
+	color: #799c38;
 	font-weight: bold;
 	text-decoration: underline;
 	cursor: pointer;
@@ -150,7 +150,7 @@ hr {
 	padding: 80px 150px;
 	background: #fff;
 	border: 1px solid #696968;
-	border-top: 4px solid #9d3c3c;
+	border-top: 4px solid #799c38;
 	border-radius: 0px 0px 5px 5px;
 	-moz-border-radius: 0px 0px 5px 5px;
 	-webkit-box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.35);
