@@ -1,7 +1,7 @@
 # GetKerMIT!
 Watch Kermit undergo the stages of grief!
 
-**PLAY**: [http://recursivevisions.github.io/GetKermit/](http://recursivevisions.github.io/GetKermit/)
+**PLAY**: [http://recursivevisions.github.io/GetKermit/](http://recursivevisions.github.io/GetKerMIT/)
 
 This was made purely for my enjoyment. Note that the order of Kermits is not intended to be a ranking, but a rough representation of his stages of grief. No Kermits were harmed in the making of this game.
 
