@@ -2,7 +2,6 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: url(https://scontent-a.xx.fbcdn.net/hphotos-prn2/t31.0-8/1502678_10100298599491097_828497142_o.jpg);
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -133,6 +132,19 @@ hr {
   width: 90%;
   margin: 0 auto;
   max-width: 500px;}
+
+
+#bg-img {
+  position: absolute;
+  object-fit: contain;
+  top: -80px;
+  left: -80px;
+  padding: 15px;
+  width: 600px;
+  height: 600px;
+  opacity: 10%;
+  overflow: visible !important;
+}
 
 @-webkit-keyframes fade-in {
   0% {
@@ -528,8 +540,14 @@ hr {
   .heading {
     margin-bottom: 10px; }
 
+    #bg-img {
+      width: 330px;
+      height: 330px;
+      top: -50px;
+      left: -50px;
+    }
+
   .game-container {
-    
     position: relative;
     padding: 10px;
     cursor: default;
