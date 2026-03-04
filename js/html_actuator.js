@@ -64,6 +64,14 @@ HTMLActuator.prototype.addTile = function (tile) {
   inner.classList.add("tile-inner");
   //inner.textContent = tile.value;
 
+  // Add/remove tile outlines
+  let outlinesEnabled = document.getElementById("outlines-check").checked;
+  if (outlinesEnabled) {
+		inner.classList.remove("tile-no-outline");
+	} else {
+		inner.classList.add("tile-no-outline");
+	}
+
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
     window.requestAnimationFrame(function () {
