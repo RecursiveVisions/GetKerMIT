@@ -130,6 +130,9 @@ GameManager.prototype.move = function (direction) {
           var merged = new Tile(positions.next, tile.value * 2);
           merged.mergedFrom = [tile, next];
 
+          // constrain value because there are no more Kermits after 4096
+          if (merged.value > 4096) merged.value = 4096;
+
           self.grid.insertTile(merged);
           self.grid.removeTile(tile);
 
