@@ -98,11 +98,16 @@ HTMLActuator.prototype.addTile = function (tile) {
       self.addTile(merged);
     });
 
-    // show secret (overlay)
+    // Show roses animation and background overlay
     if (tile.value > 2048) {
       document.body.classList.add("bg-overlay");
-      let roseOverlay = document.getElementById("rose-overlay");
-      roseOverlay.style.display = "block";
+
+      // Show roses animation if animations enabled
+      let freezeEnabled = document.getElementById("freeze-check").checked;
+      if (!freezeEnabled) {
+        let rosesOverlay = document.getElementById("rose-overlay");
+        rosesOverlay.style.display = "block";
+      }
     }
   } else {
     classes.push("tile-new");
