@@ -35,6 +35,13 @@ HTMLActuator.prototype.actuate = function (grid, metadata) {
   });
 };
 
+HTMLActuator.prototype.restart = function () {
+  // Remove post game content
+  document.body.classList.remove("bg-overlay");
+  document.body.classList.remove("post-game");
+  document.getElementById("rose-overlay").style.display = "none";
+}
+
 // Continues the game (both restart and keep playing)
 HTMLActuator.prototype.continue = function () {
   this.clearMessage();
@@ -101,6 +108,7 @@ HTMLActuator.prototype.addTile = function (tile) {
     // Show roses animation and background overlay
     if (tile.value > 2048) {
       document.body.classList.add("bg-overlay");
+      document.body.classList.add("post-game");
 
       // Show roses animation if animations enabled
       let freezeEnabled = document.getElementById("freeze-check").checked;
