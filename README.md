@@ -22,5 +22,8 @@ GetKerMIT is forked from [GetMIT](https://mitchgu.github.io/GetMIT/) by [Mitchel
 ### Image Sources
 The background is [Kermit the Frog's Spotify profile picture](https://open.spotify.com/artist/1PGjAoXiKP1Hcx788WVFx9). I don't know the sources of the other images.
 
+## Feedback
+Please submit any bugs or feature requests [here](https://github.com/RecursiveVisions/GetKerMIT/issues). 
+
 ## License
 This repository is licensed under the [MIT License](LICENSE).
