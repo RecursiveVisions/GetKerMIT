@@ -1,3 +1,4 @@
+// TODO: remove gameManager and make proper debug functions
 let gameManager = null;
 
 // Wait till the browser is ready to render the game (avoids glitches)
